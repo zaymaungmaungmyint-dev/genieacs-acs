@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.as.genieacs</groupId>
+		<artifactId>acs-parent</artifactId>
+		<version>1.0</version>
+		<relativePath>../acs-parent/pom.xml</relativePath>
+	</parent>
+
+	<name>asc-dto</name>
+	<artifactId>asc-dto</artifactId>
+	<packaging>jar</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.as.genieacs</groupId>
+			<artifactId>asc-util</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.as.genieacs</groupId>
+			<artifactId>asc-entity</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>
