@@ -1,1 +1,3 @@
 com\as\genieacs\acs\dto\user\UserDto.class
+com\as\genieacs\acs\dto\device\DeviceDto$DeviceIdDto.class
+com\as\genieacs\acs\dto\device\DeviceDto.class

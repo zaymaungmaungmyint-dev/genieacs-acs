@@ -1,2 +1,4 @@
+com\as\genieacs\acs\entity\mongo\Device$DeviceId.class
 com\as\genieacs\acs\entity\mysql\BaseEntity.class
 com\as\genieacs\acs\entity\mysql\User.class
+com\as\genieacs\acs\entity\mongo\Device.class

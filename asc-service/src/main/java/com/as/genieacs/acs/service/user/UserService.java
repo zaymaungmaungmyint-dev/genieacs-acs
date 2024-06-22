@@ -5,7 +5,6 @@ import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.as.genieacs.acs.dao.user.UserRepository;
@@ -21,8 +20,11 @@ public class UserService {
 
 	private static Logger LOG = LoggerFactory.getLogger(CommonUtil.class);
 
-	@Autowired
-	UserRepository userRepository;
+	private final UserRepository userRepository;
+
+	public UserService(UserRepository userRepository) {
+		this.userRepository = userRepository;
+	}
 
 	public List<UserDto> getUsers() {
 		LOG.info("Fetaching users...");
